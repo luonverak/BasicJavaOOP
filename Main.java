@@ -4,8 +4,7 @@ public class Main {
         
 
         MainDataController controller = MainDataController.getInstance();
-
-        controller.initData();
+ 
         controller.displayData();
         controller.inputData();
         controller.editData();
