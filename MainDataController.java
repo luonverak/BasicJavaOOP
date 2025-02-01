@@ -3,7 +3,8 @@ import java.util.Arrays;
 
 public class MainDataController {
 
-    private MainDataController() {initData();
+    private MainDataController() {
+        initData();
     }
 
     private static MainDataController INSTANCE = null;
